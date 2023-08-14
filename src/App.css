@@ -19,12 +19,12 @@
   --body-font: 'Raleway', sans-serif;
   --big-font-size: 3.5rem;
   --h1-font-size: 2.25rem;
-  --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
-  --normal-font-size: 1rem;
-  --small-font-size: 0.875rem;
-  --smaller-font-size: 0.813rem;
-  --tiny-font-size: 0.625rem;
+  --h2-font-size: 2rem;
+  --h3-font-size: 1.5rem;
+  --normal-font-size: 1.2rem;
+  --small-font-size: 0.9rem;
+  --smaller-font-size: 0.85rem;
+  --tiny-font-size: 1rem;
 
   /* font-weight */
   --font-normal: 400;
@@ -50,14 +50,14 @@
 /* Responsize Typography */
 @media screen and (min-width: 992px) {
   :root {
-    --big-font-size: 2.75rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: 0.9rem;
-    --small-font-size: 0.8rem;
-    --smaller-font-size: 0.75rem;
-    --tiny-font-size: 0.65rem;
+    --big-font-size: 3.5rem;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.4rem;
+    --normal-font-size: 1.2rem;
+    --small-font-size: 1rem;
+    --smaller-font-size: 0.8rem;
+    --tiny-font-size: 0.85rem;
   }
 }
 
@@ -77,7 +77,7 @@ button,
 input,
 textarea {
   font-family: var(--body-font);
-  font-size: var()
+  font-size: var(--normal-font-size);
 }
   
 body {
@@ -99,6 +99,12 @@ a{
   text-decoration: none;
 }
 
+.nav_logo{
+  color: var(--title-color);
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-medium);
+}
+
 button{
   cursor: pointer;
   border: none;
@@ -116,18 +122,18 @@ img{
   width: 100%;
 }
 
-.section-title{
+.section_title{
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
 
-.section-subtitle{
+.section_subtitle{
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
 
-.section-title, .section-subtitle{
+.section_title, .section_subtitle{
   text-align: center;
 }
 
@@ -195,8 +201,13 @@ img{
     padding: 2rem 0 4rem;
   }
 
-  .section-subtitle {
+  .section_subtitle {
     margin-bottom: var(--mb-3);
+  }
+
+  .nav_logo{
+    color: var(--title-color);
+    font-size: var(--h3-font-size);
   }
 }
 
@@ -213,5 +224,10 @@ img{
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
+  }
+
+  .nav_logo{
+    color: var(--title-color);
+    font-size: var(--normal-font-size);
   }
 }
