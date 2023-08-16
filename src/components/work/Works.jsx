@@ -1,52 +1,59 @@
-import React, { useEffect } from 'react';
+import React from 'react'
+import { useEffect } from 'react'
 // import { useEffect } from 'react';
-import { useState } from 'react';
+import { useState } from 'react'
 
-import { projectsNav } from './Data';
-import { projectsData } from './Data';
-import WorksItems from './WorksItems';
+import { projectsNav } from './Data'
+import { projectsData } from './Data'
+import WorksItems from './WorksItems'
 
-const Works = ()=> {
-    const [item, setItem] = useState ({name: 'all'});
-    const [projects, setProjects] = useState([]);
-    const [active, setActive] = useState(0);
+const Works = () => {
+    const [item, setItem] = useState({ name: 'all' })
+    const [projects, setProjects] = useState([])
+    const [active, setActive] = useState(0)
 
+    //create a function to filter the projects
     useEffect(() => {
-        if(item.name === 'all') {
-            setProjects(projectsData);
-        }
-
-        else {
+        if (item.name === 'all') {
+            setProjects(projectsData)
+        } else {
             const newProjects = projectsData.filter((project) => {
-                return project.category === item.name;
-            });
-            setProjects(newProjects);
+                return project.category === item.name
+            })
+            setProjects(newProjects)
         }
-    }, [item]);
-    
-    // Create a function to handle the click event
-    const handleClick = (e, index)=> {
-        setItem({ name: e.target.textContent});
-    };
+    }, [item])
 
+    // Create a function to handle the click event
+    const handleClick = (e, index) => {
+        setItem({ name: e.target.textContent.toLowerCase() })
+        setActive(index)
+    }
+
+    // Create a function to handle the active class
     return (
         <div>
             <div className="work__filters">
-            {projectsNav.map((item, index)=> {
-                return (
-                    <span 
-                      onClick = {(e)=>{
-                        handleClick(e, index);
-                    }}
-                    className="work__item" key={index}>
-                        {item.name}
-                    </span>
-                )
-            })}
+                {projectsNav.map((item, index) => {
+                    return (
+                        <span
+                            onClick={(e) => {
+                                handleClick(e, index)
+                            }}
+                            //What does `active === index ? 'active-work' : ''` mean?
+                            className={`${
+                                active === index ? 'active-work' : ''
+                            } work__item`}
+                            key={index}
+                        >
+                            {item.name}
+                        </span>
+                    )
+                })}
             </div>
 
             <div className="work__container container grid">
-                {projectsData.map((item, index)=>{
+                {projects.map((item) => {
                     return <WorksItems item={item} key={item.id} />
                 })}
             </div>
@@ -54,4 +61,4 @@ const Works = ()=> {
     )
 }
 
-export default Works;
+export default Works

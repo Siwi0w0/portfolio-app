@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 import './home.css'
-import Social from './Social';
-import Data from './Data';
+import Social from './Social'
+import Data from './Data'
 
 const Home = () => {
     return (
@@ -10,10 +10,8 @@ const Home = () => {
                 <div className="home_content grid">
                     <Social />
                     <div className="home_img_bg">
-                        <div className="home_img">
-                        </div>
+                        <div className="home_img"></div>
                     </div>
-                    
 
                     <Data />
                 </div>
@@ -22,4 +20,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Home

@@ -1,7 +1,7 @@
-import "./skills.css";
-import React from 'react';
-import Frontend from "./Frontend";
-import Design from "./Design";
+import './skills.css'
+import React from 'react'
+import Frontend from './Frontend'
+import Design from './Design'
 
 const Skills = () => {
     return (
@@ -15,6 +15,6 @@ const Skills = () => {
             </div>
         </section>
     )
-};
+}
 
-export default Skills;
+export default Skills

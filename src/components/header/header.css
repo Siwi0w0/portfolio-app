@@ -21,7 +21,7 @@
     font-weight: var(--font-medium);
 }
 
-.nav_list{
+.nav_list {
     display: flex;
     column-gap: 2rem;
 }
@@ -33,12 +33,12 @@
     font-size: var(--medium-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .nav_icon,
 .nav_close,
-.nav_toggle{
+.nav_toggle {
     display: none;
 }
 
@@ -47,18 +47,17 @@
 .nav_link:hover {
     color: var(--title-color-dark);
     font-weight: var(--font-semi-bold);
-
 }
 
 /* Breakpoints */
 /* For medium devices */
-@media screen and (max-width: 768px){
-    .header{
+@media screen and (max-width: 768px) {
+    .header {
         top: initial;
         bottom: 0;
     }
 
-    .nav{
+    .nav {
         height: var(--header-height);
     }
 
@@ -69,19 +68,19 @@
         width: 100%;
         background-color: var(--body-color);
         padding: 2rem 1.5rem 4rem;
-        box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+        box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
-        transition: .3s;
+        transition: 0.3s;
     }
 
     /* Show Menu */
-    .show-menu{
+    .show-menu {
         bottom: 0;
     }
 
-    .nav_list{
+    .nav_list {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
     }
 
@@ -89,35 +88,34 @@
         font-size: 1.2rem;
     }
 
-    .nav_close{
+    .nav_close {
         position: absolute;
         right: 1.3rem;
-        bottom: .5rem;
+        bottom: 0.5rem;
         font-size: 1.5rem;
         cursor: pointer;
         color: var(--title-color);
     }
 
-    .nav_close:hover{
+    .nav_close:hover {
         color: var(--title-color-dark);
     }
 
-
-    .nav_toggle{
+    .nav_toggle {
         font-size: 1.1rem;
         cursor: pointer;
     }
 
     .nav_icon,
     .nav_close,
-    .nav_toggle{
+    .nav_toggle {
         display: block;
     }
 }
 
 /* For small devices */
-@media screen and (max-width: 350px){
-    .nav_menu{
+@media screen and (max-width: 350px) {
+    .nav_menu {
         padding: 2rem 0.25rem 4rem;
     }
 
