@@ -1,16 +1,15 @@
-import React from 'react';
-import "./skills.css";
+import React from 'react'
+import './skills.css'
 
-const Frontend =()=> {
-    return(
+const Frontend = () => {
+    return (
         <div className="skills_content">
             <h3 className="skills_title">Frontend Developer</h3>
 
             <div className="skills_box">
                 <div className="skills_group">
-
                     <div className="sklls_data">
-                        <i class='bx bx-badge-check'></i>
+                        <i class="bx bx-badge-check"></i>
 
                         <div>
                             <h3 className="skills_name">HTML</h3>
@@ -19,7 +18,7 @@ const Frontend =()=> {
                     </div>
 
                     <div className="sklls_data">
-                        <i class='bx bx-badge-check'></i>
+                        <i class="bx bx-badge-check"></i>
 
                         <div>
                             <h3 className="skills_name">CSS</h3>
@@ -28,7 +27,7 @@ const Frontend =()=> {
                     </div>
 
                     <div className="sklls_data">
-                        <i class='bx bx-badge-check'></i>
+                        <i class="bx bx-badge-check"></i>
 
                         <div>
                             <h3 className="skills_name">JavaScript</h3>
@@ -38,33 +37,31 @@ const Frontend =()=> {
                 </div>
 
                 <div className="skills_group">
-  
-
                     <div className="sklls_data">
-                    <i class='bx bx-badge-check'></i>
+                        <i class="bx bx-badge-check"></i>
 
-                    <div>
-                        <h3 className="skills_name">React</h3>
-                        <span className="skills_level">Intermediate</span>
-                    </div>
+                        <div>
+                            <h3 className="skills_name">React</h3>
+                            <span className="skills_level">Intermediate</span>
+                        </div>
                     </div>
 
                     <div className="sklls_data">
-                    <i class='bx bx-badge-check'></i>
+                        <i class="bx bx-badge-check"></i>
 
-                    <div>
-                        <h3 className="skills_name">Git</h3>
-                        <span className="skills_level">Intermediate</span>
-                    </div>
+                        <div>
+                            <h3 className="skills_name">Git</h3>
+                            <span className="skills_level">Intermediate</span>
+                        </div>
                     </div>
 
                     <div className="sklls_data">
-                    <i class='bx bx-badge-check'></i>
+                        <i class="bx bx-badge-check"></i>
 
-                    <div>
-                        <h3 className="skills_name">WordPress</h3>
-                        <span className="skills_level">Intermediate</span>
-                    </div>
+                        <div>
+                            <h3 className="skills_name">WordPress</h3>
+                            <span className="skills_level">Intermediate</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -72,4 +69,4 @@ const Frontend =()=> {
     )
 }
 
-export default Frontend;
+export default Frontend

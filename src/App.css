@@ -4,230 +4,232 @@
 /* -- CSS Variables -- */
 
 :root {
-  --header-height: 3rem;
-  --hue: 0;
-  --sat: 0%;
+    --header-height: 3rem;
+    --hue: 0;
+    --sat: 0%;
 
-  /* colors */
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 48%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: white;
+    /* colors */
+    --title-color: hsl(var(--hue), var(--sat), 20%);
+    --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+    --text-color: hsl(var(--hue), var(--sat), 48%);
+    --body-color: hsl(var(--hue), var(--sat), 98%);
+    --container-color: white;
 
-  /* fonts */
-  --body-font: 'Raleway', sans-serif;
-  --big-font-size: 3.5rem;
-  --h1-font-size: 2.25rem;
-  --h2-font-size: 2rem;
-  --h3-font-size: 1.5rem;
-  --normal-font-size: 1.2rem;
-  --small-font-size: 0.9rem;
-  --smaller-font-size: 0.85rem;
-  --tiny-font-size: 1rem;
+    /* fonts */
+    --body-font: 'Raleway', sans-serif;
+    --big-font-size: 3.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 2rem;
+    --h3-font-size: 1.5rem;
+    --normal-font-size: 1.2rem;
+    --small-font-size: 0.9rem;
+    --smaller-font-size: 0.85rem;
+    --tiny-font-size: 1rem;
 
-  /* font-weight */
-  --font-normal: 400;
-  --font-medium: 500;
-  --font-semi-bold: 600;
+    /* font-weight */
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
 
-  /* Margin Bottom */
-  --mb-0-25: 0.25rem;
-  --mb-0-5: 0.5rem;
-  --mb-0-75: 0.75rem;
-  --mb-1: 1rem;
-  --mb-1-5: 1.5rem;
-  --mb-2: 2rem; 
-  --mb-2-5: 2.5rem;
-  --mb-3: 3rem;
+    /* Margin Bottom */
+    --mb-0-25: 0.25rem;
+    --mb-0-5: 0.5rem;
+    --mb-0-75: 0.75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
 
-  /* z-index */
-  --z-tooltip: 10;
-  --z-fixed: 100;
-  --z-modal: 1000;
+    /* z-index */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
 }
 
 /* Responsize Typography */
 @media screen and (min-width: 992px) {
-  :root {
-    --big-font-size: 3.5rem;
-    --h1-font-size: 2.5rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.4rem;
-    --normal-font-size: 1.2rem;
-    --small-font-size: 1rem;
-    --smaller-font-size: 0.8rem;
-    --tiny-font-size: 0.85rem;
-  }
+    :root {
+        --big-font-size: 3.5rem;
+        --h1-font-size: 2.5rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.4rem;
+        --normal-font-size: 1.2rem;
+        --small-font-size: 1rem;
+        --smaller-font-size: 0.8rem;
+        --tiny-font-size: 0.85rem;
+    }
 }
 
 /* base */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body,
 button,
 input,
 textarea {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
 }
-  
+
 body {
-  background-color: var(--body-color);
-  color: var(--text-color);
-  width: 100%;
+    background-color: var(--body-color);
+    color: var(--text-color);
+    width: 100%;
 }
 
-h1, h2, h3 {
-  color: var(--title-color);
-  font-weight: var(--font-semi-bold);
+h1,
+h2,
+h3 {
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
 }
 
-ul{
-  list-style: none;
+ul {
+    list-style: none;
 }
 
-a{
-  text-decoration: none;
+a {
+    text-decoration: none;
 }
 
-.nav_logo{
-  color: var(--title-color);
-  font-size: var(--h2-font-size);
-  font-weight: var(--font-medium);
+.nav_logo {
+    color: var(--title-color);
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
 }
 
-button{
-  cursor: pointer;
-  border: none;
-  outline: none;
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
 }
 
-img{
-  max-width: 100%;
-  height: auto;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Reusable CSS classes */
 .section {
-  padding: 6rem 0 2rem;
-  width: 100%;
+    padding: 6rem 0 2rem;
+    width: 100%;
 }
 
-.section_title{
-  font-size: var(--h1-font-size);
-  color: var(--title-color);
+.section_title {
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
 }
 
-.section_subtitle{
-  display: block;
-  font-size: var(--small-font-size);
-  margin-bottom: 4rem;
+.section_subtitle {
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: 4rem;
 }
 
-.section_title, .section_subtitle{
-  text-align: center;
+.section_title,
+.section_subtitle {
+    text-align: center;
 }
 
 /* Layout */
 .container {
-  max-width: 968px;
-  margin-left: auto;
-  margin-right: auto;
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .grid {
-  display: grid;
-  gap: 1.5rem;
+    display: grid;
+    gap: 1.5rem;
 }
 
 /* Buttons */
 .button {
-  display: inline-block;
-  background-color: var(--title-color);
-  color: var(--container-color);
-  padding: 1.25rem 2rem;
-  border-radius: 1rem;
-  font-weight: var(--font-medium);
+    display: inline-block;
+    background-color: var(--title-color);
+    color: var(--container-color);
+    padding: 1.25rem 2rem;
+    border-radius: 1rem;
+    font-weight: var(--font-medium);
 }
 
-.button:hover{
-  background-color: var(--title-color-dark);
+.button:hover {
+    background-color: var(--title-color-dark);
 }
 
 .button_icon {
-  margin-left: var(--mb-0-5);
+    margin-left: var(--mb-0-5);
 }
 
-.button--flex{
-  display: inline-flex;
-  align-items: center;
+.button--flex {
+    display: inline-flex;
+    align-items: center;
 }
 
 /* Breakpoints */
 
 /* For large devices */
-@media screen and (max-width: 992px){
-  .container {
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
-  }
+@media screen and (max-width: 992px) {
+    .container {
+        margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5);
+    }
 
-  .button{
-    padding: 1rem 1.75rem;
-  }
+    .button {
+        padding: 1rem 1.75rem;
+    }
 
-  .button_icon{
-    width: 22px;
-    height: 22px;
-  }
+    .button_icon {
+        width: 22px;
+        height: 22px;
+    }
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px){
-  body {
-    margin: 0 0 var(--header-height) 0;
-  }
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0 0 var(--header-height) 0;
+    }
 
-  .section{
-    padding: 2rem 0 4rem;
-  }
+    .section {
+        padding: 2rem 0 4rem;
+    }
 
-  .section_subtitle {
-    margin-bottom: var(--mb-3);
-  }
+    .section_subtitle {
+        margin-bottom: var(--mb-3);
+    }
 
-  .nav_logo{
-    color: var(--title-color);
-    font-size: var(--h3-font-size);
-  }
+    .nav_logo {
+        color: var(--title-color);
+        font-size: var(--h3-font-size);
+    }
 }
 
-@media screen and (max-width: 576px){
-
+@media screen and (max-width: 576px) {
 }
 
 /* For small devices */
-@media screen and (max-width: 350px){
-  :root{
-    --big-font-size: 2.25rem;
-  }
-  
-  .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
-  }
+@media screen and (max-width: 350px) {
+    :root {
+        --big-font-size: 2.25rem;
+    }
 
-  .nav_logo{
-    color: var(--title-color);
-    font-size: var(--normal-font-size);
-  }
+    .container {
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
+
+    .nav_logo {
+        color: var(--title-color);
+        font-size: var(--normal-font-size);
+    }
 }
