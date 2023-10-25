@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
-
 const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
@@ -17,7 +16,7 @@ const Contact = () => {
 
             <div className= "contact_container container grid">
                 <div className = "contact_content">
-                    <h3 className ="contact_title">Say hi to me</h3>
+                    <h3 className ="contact_title">Say hi to me 👋</h3>
                     <div className="contact_info">
                         <div className="contact_card">
                             <i className="bx bx-mail-send contact_card-icon"></i>
@@ -37,6 +36,7 @@ const Contact = () => {
                             <h3 className="contact_card-title">WhatsApp</h3>
                             <span className="contact_card-data">0871946593</span>
 
+                            {/* To open a new window to the image */}
                             <a href ="#" className="contact_button">Send me a message
                                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
                             </a>

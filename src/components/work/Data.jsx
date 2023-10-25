@@ -10,16 +10,16 @@ export const projectsData = [
         image: Work1,
         title: 'Weather App',
         category: 'app',
-        // description: "",
+        // description: "11111",
         url: 'https://siwi0w0.github.io/weather-app/',
     },
     {
         id: 2,
         image: Work2,
-        title: 'App2',
-        category: 'web',
-        // description: "",
-        // url: "https://www.google.com"
+        title: 'Gallery App',
+        category: 'app',
+        description: "",
+        url: "https://gallery-one.netlify.app/"
     },
     {
         id: 3,
