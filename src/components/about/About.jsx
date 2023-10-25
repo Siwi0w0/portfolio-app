@@ -18,15 +18,12 @@ const About = () => {
                     <Info />
 
                     <p className="about_description">
-                        Front End Developer, highly Skilled in
-                        HTML/CSS/JavaScript, Responsive Web Design, jQuery,
-                        React, and Design Software like Figma, Adobe Photoshop
-                        and Illustration. I pay high attention to user
-                        experience and accessibility.{' '}
+                        Front End Developer and Visual Designer.<br/><br/>Highly Skilled in HTML, CSS, JavaScript and React. Also good at Design Software like Figma, Adobe Photoshop and Adobe Illustrator. 
+                        <br/><br/>Always passionate about designing and building friendly and beautiful user interfaces for a better digital experience.{' '}
                     </p>
 
                     <a download="" href={CV} className="button button--flex">
-                        Download CV
+                        Download CV &nbsp;
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"

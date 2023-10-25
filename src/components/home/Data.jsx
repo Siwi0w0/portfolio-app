@@ -5,11 +5,10 @@ const Data = () => {
         <div className="home_data">
             <h1 className="home_title">Yufei Sun</h1>
             <h3 className="home_subtitle">
-                Front End Developer/Visual Designer
+                Front End Developer/<br/>Visual Designer
             </h3>
             <p className="home_description">
-                I design and develop services for customers of all sizes,
-                specializing in creating stylish, modern websites.
+                I design and develop stylish, modern websites for customers of all sizes.
             </p>
 
             <a href="#contact" className="button button--flex">

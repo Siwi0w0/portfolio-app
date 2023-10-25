@@ -31,7 +31,7 @@ const Footer = () => {
                 </a>
             </div>
 
-            <span className="footer_copy">&#169; Yufei Sun. All rights reserved</span>
+            <span className="footer_copy">&#169; Yufei Sun 2023. All rights reserved</span>
         </div>
       </footer>
     )
