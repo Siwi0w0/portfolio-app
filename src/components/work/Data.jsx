@@ -37,7 +37,7 @@ export const projectsData = [
     //     // description: "",
     //     // url: "https://www.google.com"
     // },
-    // 
+    //
 ]
 
 export const projectsNav = [
