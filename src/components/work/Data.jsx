@@ -21,30 +21,23 @@ export const projectsData = [
         description: "",
         url: "https://gallery-one.netlify.app/"
     },
-    {
-        id: 3,
-        image: Work3,
-        title: 'Project 3',
-        category: 'design',
-        // description: "",
-        // url: "https://www.google.com"
-    },
-    {
-        id: 4,
-        image: Work4,
-        title: 'Project 4',
-        category: 'web',
-        // description: "",
-        // url: "https://www.google.com"
-    },
-    {
-        id: 5,
-        image: Work5,
-        title: 'Project 5',
-        category: 'app',
-        // description: "",
-        // url: "https://www.google.com"
-    },
+    // {
+    //     id: 3,
+    //     image: Work3,
+    //     title: 'Project 3',
+    //     category: 'design',
+    //     // description: "",
+    //     // url: "https://www.google.com"
+    // },
+    // {
+    //     id: 4,
+    //     image: Work4,
+    //     title: 'Project 4',
+    //     category: 'web',
+    //     // description: "",
+    //     // url: "https://www.google.com"
+    // },
+    //
 ]
 
 export const projectsNav = [
