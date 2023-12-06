@@ -30,7 +30,7 @@ const Design = () => {
                         <i class="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 className="skills_name">Adobe Illustrator</h3>
+                            <h3 className="skills_name">Adobe Illustration</h3>
                             <span className="skills_level">Intermediate</span>
                         </div>
                     </div>

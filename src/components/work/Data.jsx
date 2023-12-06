@@ -10,34 +10,35 @@ export const projectsData = [
         image: Work1,
         title: 'Weather App',
         category: 'app',
-        // description: "11111",
+        description: "A weather app that enables users to check the weather currently and in the next five days.",
         url: 'https://siwi0w0.github.io/weather-app/',
     },
     {
         id: 2,
         image: Work2,
-        title: 'Gallery App',
+        title: 'Image Gallery App',
         category: 'app',
-        description: "",
+        description: "A dynamic image gallery application that allows users to log in, upload images, and interact with a user-friendly interface.",
         url: "https://gallery-one.netlify.app/"
     },
-    // {
-    //     id: 3,
-    //     image: Work3,
-    //     title: 'Project 3',
-    //     category: 'design',
-    //     // description: "",
-    //     // url: "https://www.google.com"
-    // },
-    // {
-    //     id: 4,
-    //     image: Work4,
-    //     title: 'Project 4',
-    //     category: 'web',
-    //     // description: "",
-    //     // url: "https://www.google.com"
-    // },
-    //
+    {
+        id: 3,
+        image: Work3,
+        title: 'Country Information Retrieval System',
+        category: 'app',
+        description: "A web application that enables users to input a country name, initiating a seamless flow of data retrieval and presentation.",
+        url: "https://countries-wiki-frontend.vercel.app/"
+    },
+
+    {
+        id: 4,
+        image: Work4,
+        title: 'International Student Support Platform',
+        category: 'design',
+        description: "A user-friendly web design which will provide international students with the support and resources they need to succeed.",
+        url: "https://www.figma.com/file/VZfr86QsNVo6ezVhS8Jvth/GlobalCampusIE-(Community)"
+    },
+
 ]
 
 export const projectsNav = [
