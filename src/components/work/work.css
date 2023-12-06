@@ -32,6 +32,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1.25rem;
     border-radius: 1rem;
+    width: 350px;
 }
 
 .work__img {
@@ -47,6 +48,13 @@
     margin-bottom: var(--mb-0-5);
 }
 
+.work_description {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-normal);
+    margin-bottom: var(--mb-2);
+    overflow: hidden;
+}
+
 .work__button {
     color: var(--text-color);
     font-size: var(--small-font-size);
@@ -60,7 +68,7 @@
     transition: 0.4s;
 }
 
-/* -------------简单的CSS箭头滑动动画 --------------*/
+/* ------------- Arrow sliding animation --------------*/
 .work__button:hover .work__button-icon {
     transform: translateX(0.25rem);
 }
@@ -111,6 +119,11 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+    .work_card {
+        width: 300px;
+        padding: 1rem;
+    }
+
     .work__item {
         font-size: var(--small-font-size);
     }
