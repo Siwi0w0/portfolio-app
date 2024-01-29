@@ -1,0 +1,12 @@
+
+  .dark-mode-toggle-btn .react-toggle-track {
+    background-color: #4b4b4b;
+  }
+
+.dark-mode-toggle-btn.on:hover .react-toggle-track{
+    background-color: #a9dab1;
+  }
+
+  .dark-mode-toggle-btn.off .react-toggle-track {
+    background-color: #4b4b4b;
+  }

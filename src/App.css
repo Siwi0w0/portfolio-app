@@ -14,6 +14,12 @@
     --text-color: hsl(var(--hue), var(--sat), 48%);
     --body-color: hsl(var(--hue), var(--sat), 98%);
     --container-color: white;
+    /* night mode */
+    --night--title-color: white;
+    --night--title-color-bright: hsl(var(--hue), var(--sat), 0%);
+    --night--text-color: hsl(var(--hue), var(--sat), 48%);
+    --night--body-color: hsl(var(--hue), var(--sat), 20%);
+    --night--container-color: hsl(var(--hue), var(--sat), 30%);
 
     /* fonts */
     --body-font: 'Raleway', sans-serif;
@@ -99,6 +105,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: var(--title-color);
 }
 
 .nav_logo {
@@ -232,4 +239,13 @@ img {
         color: var(--title-color);
         font-size: var(--normal-font-size);
     }
+}
+
+/* Dark Theme */
+body.dark {
+    --title-color: var(--night--title-color);
+    --title-color-bright: var(--night--title-color-bright);
+    --text-color: var(--night--text-color);
+    --body-color: var(--night--body-color);
+    --container-color: var(--night--container-color);
 }
