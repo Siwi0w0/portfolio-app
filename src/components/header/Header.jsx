@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import { useState } from 'react'
+import DarkModeToggle from '../colorScheme/DarkModeToggle.jsx'
 
 const Header = () => {
     /* Change background header */
@@ -21,7 +22,7 @@ const Header = () => {
                 <a href="index.html" className="nav_logo">
                     Yufei
                 </a>
-
+                <DarkModeToggle />
                 <div className={Toggle ? 'nav_menu show-menu' : 'nav_menu'}>
                     <ul className="nav_list grid">
                         <li className="nav_item">
