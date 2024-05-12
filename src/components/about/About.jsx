@@ -3,7 +3,7 @@ import React from 'react'
 import Info from './Info'
 import './about.css'
 import AboutImg from '../../assets/about.jpg'
-import CV from '../../assets/Yufei-cv.pdf'
+import CV from '../../assets/CV_Rebecca_Sun.pdf'
 
 const About = () => {
     return (
@@ -18,12 +18,12 @@ const About = () => {
                     <Info />
 
                     <p className="about_description">
-                        Front End Developer and Visual Designer.<br/><br/>Highly Skilled in HTML, CSS, JavaScript and React. Also good at Design Software like Figma, Adobe Photoshop and Adobe Illustrator. 
-                        <br/><br/>Always passionate about designing and building friendly and beautiful user interfaces for a better digital experience.{' '}
+                        Full stack Software Developer who is passionate about design.<br/><br/>Highly Skilled in HTML5, CSS3, JavaScript and TypeScript & React.js. Have fluency building full-functional web appliations with modern front end technologies.
+                        <br/><br/>Always passionate about designing and building friendly and beautiful user interfaces for a better digital experience.
                     </p>
 
                     <a download="" href={CV} className="button button--flex">
-                        Download CV &nbsp;
+                        Download my CV &nbsp;
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"

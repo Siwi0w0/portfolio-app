@@ -20,7 +20,7 @@ const Header = () => {
         <header className="header">
             <nav className="nav container">
                 <a href="index.html" className="nav_logo">
-                    Yufei
+                    Rebecca.S
                 </a>
                 <DarkModeToggle />
                 <div className={Toggle ? 'nav_menu show-menu' : 'nav_menu'}>
