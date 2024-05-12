@@ -30,16 +30,15 @@
     color: var(--title-color-dark);
 }
 
+.dark .qualification_active {
+    color: var(--title-color-light); /* Adjust to your light mode color */
+}
+
 .qualification_sections{
     display: grid;
     grid-template-columns: 0.5fr;
     justify-content: center;
 }
-
-/* 
-.qualification_content{
-    display: none;
-} */
 
 .qualification_content-active {
     display: block;
@@ -104,7 +103,7 @@
     .qualification_sections{
         grid-template-columns: initial;
     }
-    
+
     .qualification_button{
         margin: 0 var(--mb-0-75);
     }
