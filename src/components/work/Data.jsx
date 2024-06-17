@@ -6,12 +6,12 @@ import Work5 from '../../assets/work5.jpg'
 
 export const projectsData = [
     {
-        id: 1,
-        image: Work1,
-        title: 'Weather App',
-        category: 'app',
-        description: "A weather app that enables users to check the weather currently and in the next five days.",
-        url: 'https://siwi0w0.github.io/weather-app/',
+        id: 5,
+        image: Work5,
+        title: 'E-commerce website',
+        category: 'web',
+        description: "A user-friendly online platform allowing customers to register, browse products, add items to their cart and manage orders. "+"Built with TypeScript, React and TailwindCSS.",
+        url: "https://typescript-comfy-store.netlify.app/"
     },
     {
         id: 2,
@@ -20,6 +20,13 @@ export const projectsData = [
         category: 'app',
         description: "A dynamic image gallery application that allows users to log in, upload images, and interact with a user-friendly interface.",
         url: "https://gallery-one.netlify.app/"
+    },{
+        id: 1,
+        image: Work1,
+        title: 'Weather App',
+        category: 'app',
+        description: "A weather app that enables users to check the weather currently and in the next five days.",
+        url: 'https://siwi0w0.github.io/weather-app/',
     },
     {
         id: 3,
