@@ -98,7 +98,7 @@ const Qualification = () => {
                                     Junior Full-Stack Developer
                                 </h3>
                                 <span className="qualification_subtitle">
-                                    Freelancer
+                                    Field Management Ireland
                                 </span>
                                 <div className="qualification_calender">
                                     <i className="uil uil-calendar-alt"></i>{' '}
