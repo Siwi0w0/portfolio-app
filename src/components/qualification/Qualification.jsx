@@ -95,14 +95,14 @@ const Qualification = () => {
 
                             <div>
                                 <h3 className="qualification_title">
-                                    Full-Stack Web Developer
+                                    Junior Full-Stack Developer
                                 </h3>
                                 <span className="qualification_subtitle">
                                     Freelancer
                                 </span>
                                 <div className="qualification_calender">
                                     <i className="uil uil-calendar-alt"></i>{' '}
-                                    12.2023-2024
+                                    6.2024-present
                                 </div>
                             </div>
                         </div>
