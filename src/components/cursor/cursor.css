@@ -1,0 +1,21 @@
+.cursor-follower{
+    position: fixed;
+    background-image: url('../../assets/star.png');
+    z-index: 9000;
+    user-select: none;
+    pointer-events: none;
+    transform: translate(40%, 40%);
+    width: 32px;
+    height: 32px;
+}
+
+/* .particle {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background: #FFD700;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 998;
+    transform: translate(40%, 40%);
+} */

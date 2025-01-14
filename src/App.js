@@ -9,10 +9,12 @@ import Qualification from './components/qualification/Qualification'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import ScrollUp from './components/scrollup/ScrollUp'
+import Cursor from './components/cursor/Cursor'
 
 function App() {
     return (
         <>
+            <Cursor />
             <Header />
             <main className="main">
                 <Home />

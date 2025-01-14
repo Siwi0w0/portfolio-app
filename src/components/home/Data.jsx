@@ -3,7 +3,7 @@ import React from 'react'
 const Data = () => {
     return (
         <div className="home_data">
-            <h1 className="home_title">Rebecca Sun</h1>
+            <h1 className="home_title">Yufei Sun</h1>
             <h3 className="home_subtitle">
                 Full Stack Web Developer/<br/>Product Designer
             </h3>
