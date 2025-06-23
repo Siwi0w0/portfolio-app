@@ -4,7 +4,7 @@ import './skills.css'
 const Frontend = () => {
     return (
         <div className="skills_content">
-            <h3 className="skills_title">Frontend Developer</h3>
+            <h3 className="skills_title">Full Stack Development</h3>
 
             <div className="skills_box">
                 <div className="skills_group">
@@ -51,7 +51,7 @@ const Frontend = () => {
                         <i class="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 className="skills_name">CSS3</h3>
+                            <h3 className="skills_name">Redux</h3>
                             <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ const Frontend = () => {
 
                         <div>
                             <h3 className="skills_name">TailwindCSS</h3>
-                            <span className="skills_level">Intermediate</span>
+                            <span className="skills_level">Advanced</span>
                         </div>
                     </div>
                 </div>

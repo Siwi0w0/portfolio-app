@@ -4,7 +4,7 @@ import './skills.css'
 const Design = () => {
     return (
         <div className="skills_content">
-            <h3 className="skills_title">UI/UX Designer</h3>
+            <h3 className="skills_title">UI/UX Design</h3>
 
             <div className="skills_box">
                 <div className="skills_group">

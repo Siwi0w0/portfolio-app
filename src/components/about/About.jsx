@@ -18,14 +18,14 @@ const About = () => {
                     <Info />
 
                     <p className="about_description">
-                        Full stack Software Developer who is passionate about design.<br/><br/>Highly Skilled in HTML5, CSS3, JavaScript and TypeScript & React.js. Have fluency building full-functional web appliations with modern front end technologies.
-                        <br/><br/>Always passionate about designing and building friendly and beautiful user interfaces for a better digital experience.
+                        Hi, I'm Yufei, a full stack developer based in Dublin, Ireland.<br/><br/>I specialize in JavaScript/TypeScript and React.js, and have extensive experience in building fully functional web applications with modern front-end technologies.
+                        <br/><br/>I’m passionate about creating intuitive and visually appealing user interfaces that deliver seamless and engaging digital experiences.
                     </p>
 
                     <a download="" href={CV} className="button button--flex">
                         Download my CV &nbsp;
                         <svg
-                            class="button__icon"
+                            className="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
                             height="24"
