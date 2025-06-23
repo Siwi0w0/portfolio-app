@@ -23,7 +23,7 @@ const Footer = () => {
                 </a>
             </div>
 
-            <span className="footer_copy">&#169; Yufei Sun 2024. All rights reserved</span>
+            <span className="footer_copy">&#169; Yufei Sun 2025. All rights reserved</span>
         </div>
       </footer>
     )

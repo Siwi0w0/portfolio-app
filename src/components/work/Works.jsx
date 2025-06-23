@@ -7,7 +7,7 @@ import { projectsNav } from './Data'
 import { projectsData } from './Data'
 import WorksItems from './WorksItems'
 
-const Works = () => {
+const Works = ({ onItemClick }) => {
     const [item, setItem] = useState({ name: 'all' })
     const [projects, setProjects] = useState([])
     const [active, setActive] = useState(0)
@@ -54,7 +54,7 @@ const Works = () => {
 
             <div className="work__container container grid">
                 {projects.map((item) => {
-                    return <WorksItems item={item} key={item.id} />
+                    return <WorksItems item={item} key={item.id} onItemClick={onItemClick} />
                 })}
             </div>
         </div>

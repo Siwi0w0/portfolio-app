@@ -4,23 +4,18 @@ const Info = () => {
     return (
         <div className="about_info grid">
             <div className="about_box">
-                <i class="bx bx-code-curly about_icon"></i>
-                <h3 className="about_title">Develop</h3>
-                <span className="about_subtitle">Responsive Websites</span>
+                <i className="bx bx-code-curly about_icon"></i>
+                <h3 className="about_title">React.js<br></br>& TypeScript</h3>
             </div>
 
             <div className="about_box">
-                <i class="bx bx-palette about_icon"></i>
-                <h3 className="about_title">Design</h3>
-                <span className="about_subtitle">
-                    Attractive User Interface
-                </span>
+                <i className="bx bx-palette about_icon"></i>
+                <h3 className="about_title">Responsive Design</h3>
             </div>
 
             <div className="about_box">
-                <i class="bx bx-laugh about_icon"></i>
-                <h3 className="about_title">Create</h3>
-                <span className="about_subtitle">Smooth User Experience</span>
+                <i className="bx bx-laugh about_icon"></i>
+                <h3 className="about_title">Smooth UX</h3>
             </div>
         </div>
     )
